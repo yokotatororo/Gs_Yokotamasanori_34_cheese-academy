@@ -1,0 +1,531 @@
+/* ここから下に記載していく */
+html{
+    width: 100%;
+    line-height: 100px;
+}
+
+/* カーソルのデザイン開始 */
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  position: relative;
+  cursor: none;
+}
+
+.cursor {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 0;
+  left: 0; 
+  z-index: 1001;
+  cursor: none;
+  pointer-events: none;
+}  
+
+.dog {
+    width: 100%;
+  }
+/* カーソルのデザイン終了 */
+
+body{
+    line-height: 40px;
+    color: #333333;
+    font-family: "Open Sans",'ヒラギノ角ゴ ProN W3', Hiragino Kaku Gothic ProN, "メイリオ", Meiryo, sans-serif;
+    position: relative;
+    cursor: none;
+  }
+   
+nav {
+    display: flex;
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+}
+
+.logo{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 10px;
+}
+
+.menubar{
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    margin: 0 20px;
+}
+.menubar a{
+    text-decoration: none;
+    color: #000;
+}
+.navigationbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    margin: 0 100px 10px auto;
+    font-size: 20px;
+    
+}
+.mainpicture{
+    width: 100%;
+}
+.wrap {
+    overflow: hidden;
+}
+
+.mainpic{
+    position: relative;
+    font-family: 'Alegreya Sans SC',sans-serif;
+}
+
+.mainpic h2{
+    
+    position: absolute;
+    color: white;
+    font-weight: bold; /*太字に*/
+    font-size: 3em;/*サイズ2倍*/
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    margin:0;
+    padding:0;
+}
+
+.mainpic p{ 
+    position: absolute;
+    color: white;
+    font-size: 1.5em;/*サイズ2倍*/
+    font-family :Quicksand, sans-serif;
+    top: 65%;
+    left: 50%;
+    -ms-transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    margin:0;
+    padding:0;
+}
+
+.about{
+    margin-top: 60px;
+    text-align: center;
+    font-family :Quicksand, sans-serif;
+    
+}
+.bg{
+    /*位置の設定*/
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    /*背景画像の設定*/
+}
+
+.about h2{
+    font-size: 24px;
+    color: yellow;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 24px;
+    text-transform: uppercase;
+}
+.about p{
+    margin-bottom: 50px;
+    font-size: 1.1rem;
+}
+
+.about p{
+    margin-bottom: 40px;
+    font-size: 1.1rem;
+}
+
+
+.cheeseacademyphoto {
+    display: flex;
+}
+.cheeseacademyphoto img {
+    object-fit:cover;
+    object-position:0px 0px;
+    width: 25%;
+    }
+
+
+.course h3{
+    margin-top: 60px;
+    margin-bottom: 30px;
+    font-size: 24px;
+    text-align: center;
+    font-family :Quicksand, sans-serif;
+}
+
+.course p{
+    margin-bottom: 60px;
+    text-align: center;
+    line-height: 22px;
+    font-family :Quicksand, sans-serif;
+}
+
+/* 農場の写真のデザイン始まり */
+  .content1 {
+    width: 100%;
+    display: flex;
+  }
+
+  .course1{
+      width: 50%;
+      height: 485.63px;
+  }
+
+  .course1photo{
+      width: 100%;
+  }
+
+  .text1{
+      width:50%;
+      text-align: center;
+      background-color: #FFFFE0;
+      height: 485.63px;
+
+  }
+
+  .text1 h3{
+      font-size: 150%;
+      margin-top: 120px;
+      margin-bottom: 40px;
+      font-weight: bold;
+  }
+/* 農場の写真のデザイン終わり */
+
+/* 講師の写真のデザイン始まり */
+.content2 {
+    width: 100%;
+    display: flex;
+}
+
+.course2{
+    width: 50%;
+    height: 485.63px;
+}
+
+.course2photo{
+    width: 100%;
+    height: 485.63px;
+}
+
+.text2{
+    width:50%;
+    text-align: center;
+    background-color: #FFFFE0;
+    height: 485.63px;
+}
+
+.text2 h3{
+    font-size: 150%;
+    margin-top: 120px;
+    margin-bottom: 40px;
+    font-weight: bold;
+}
+/* 講師の写真のデザイン終わり */
+
+/* ティスティングの写真のデザイン始まり */
+.content3{
+    width: 100%;
+    display: flex;
+}
+
+.course3{
+    width: 50%;
+    height: 485.63px;
+}
+
+.course3photo{
+    width: 100%;
+    height: 485.63px;
+}
+
+.text3{
+    width:50%;
+    text-align: center;
+    background-color:#FFFFE0;
+    height: 485.63px;
+}
+
+.text3 h3{
+    font-size: 150%;
+    margin-top: 120px;
+    margin-bottom: 40px;
+    font-weight: bold;
+}
+/* ティスティングの写真のデザイン終わり */
+
+/* Newsパートデザイン */
+
+.newstitle{
+    font-size: 24px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 24px;
+    margin-top: 50px;
+    text-transform: uppercase;
+}
+
+.newsjapanese{
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.pizzaphoto{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.news1{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-family: 'Alegreya Sans SC',sans-serif;
+}
+
+.news2{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-family: 'Alegreya Sans SC',sans-serif;
+}
+
+.news3{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-family: 'Alegreya Sans SC',sans-serif;
+}
+
+.btn-border-shadow btn-border-shadow--color{
+    text-align: center;
+    margin: auto;
+}
+.btn,
+a.btn,
+button.btn {
+  font-size: 1.0rem;
+  font-weight: 700;
+  line-height: 1.5;
+  position: relative;
+  display: inline-block;
+  padding: 1rem 4rem;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  text-align: center;
+  vertical-align: middle;
+  text-decoration: none;
+  letter-spacing: 0.1em;
+  color: #212529;
+  border-radius: 0.5rem;
+}
+
+a.btn-border-shadow {
+  padding: calc(1.5rem - 12px) 3rem 1.5rem;
+  text-align: center;
+
+  background: #fff;
+}
+
+a.btn-border-shadow:before {
+  position: absolute;
+  top: -6px;
+  left: -6px;
+
+  width: 100%;
+  height: 100%;
+
+  content: "";
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+
+  border: 3px solid #000;
+  border-radius: 0.5rem;
+}
+
+a.btn-border-shadow:hover {
+  padding: calc(1.5rem - 6px) 3rem;
+}
+
+a.btn-border-shadow:hover:before {
+  top: 0;
+  left: 0;
+}
+
+a.btn-border-shadow--color {
+  border-radius: 0;
+  background: yellow;
+}
+
+a.btn-border-shadow--color:before {
+  border-radius: 0;
+}
+
+.morebotton{
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom:60px;
+}
+/* アクセスパートのデザイン */
+.Access{
+    padding: 64px;
+    background-color: #fafafa;
+}
+.Accesstitle{
+    font-size: 24px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 24px;
+    margin-top: 30px;
+    text-transform: uppercase;
+}
+
+.Accessjapanese{
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.Accessdetail{
+    text-align: left;
+    display: inline-block;
+   
+}
+
+.Accessinfo{
+    text-align: center;
+}
+
+.hoge { 
+    text-align: center; 
+}
+/* アクセスパートのデザイン終わり */
+
+/* コンタクトパートのデザイン終わり */
+.section-title{
+    margin-bottom: 30px;
+    font-size: 24px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 30px;
+    text-transform: uppercase;
+}
+
+.con2{
+    margin-bottom: 30px;
+    margin-top: 60px;
+    line-height: 22px;
+}
+
+.con3{
+    line-height: 20px;
+    color: crimson;
+    margin-bottom: 70px;
+}
+
+form{
+    display: block;
+}
+
+.form-inner {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+}
+
+.cheesacademyreason {
+    font-size: 1rem;
+    padding-right: 10px;
+}
+
+select {
+    font-size: .9rem;
+    padding: 2px 5px;
+}
+
+.form-title {
+    width: 118px;
+    padding-top: 8px;
+    margin-right: 95px;
+    font-weight: normal;
+    text-align: left;
+}
+
+.form-item {
+    width: 386px;
+    margin-bottom: 24px;
+    text-align: left;
+}
+
+.form-item3 {
+    width: 386px;
+    margin-bottom: 24px;
+    text-align: left;
+}
+
+.form-title.check-radio {
+    padding-top: 20px;
+}
+
+.form-ul{
+    width:390px;
+    padding-top: 10px;
+    padding-bottom:10px
+}
+
+.formparts{
+appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 8px;
+    border: solid 1px #c9c9c9;
+    font-size: 1.6rem;
+}
+
+.btn-submit {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    border: none;
+    width: 298px;
+    height: 54px;
+    font-size: 1.2rem;
+    padding: 0px;
+    margin-bottom: 0px;
+}
+
+.form-wrapper {
+    width: 600px;
+    margin: 0 auto;
+}
+
+.contact{
+    margin-top: 120px;
+    text-align: center;
+}
+
+.footerword{
+    font-size: 10px;
+    background-color:yellow;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+}
